@@ -3,15 +3,14 @@
 Ce projet implémente un pipeline pipeline Lakehouse entièrement automatisé permettant d’ingérer, transformer, historiser et analyser des données de ventes Amazon, en appliquant les principes Bronze → Silver → Gold, l’orchestration moderne avec LakeFlow Declarative Pipelines, et la modélisation analytique Data Warehouse (dimensions + fact table).
 
 
-# 🚀 Architecture du Projet
+## 🚀 Architecture du Projet
 
 Le pipeline repose sur l'architecture Medallion utilisant Delta Live Tables (DLT) :
 Couche Bronze : Ingestion brute via cloudFiles depuis un Volume Unity Catalog. 
 Couche Silver : Nettoyage, enrichissement temporel et agrégation. 
 Couche Gold : Modélisation en Schéma en Étoile avec gestion de l'historique (SCD Type 2) et Clés de Substitution.
 
-
-🛠️ Stack Technique
+## 🛠️ Stack Technique
 
 Plateforme : Databricks (Azure/AWS) 
 
