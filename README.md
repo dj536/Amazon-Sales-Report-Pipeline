@@ -21,7 +21,7 @@ Langages : PySpark (ETL) & SQL (Reporting)
 Gouvernance : Unity Catalog
 
 
-📁 Structure des Données (Star Schema)
+## 📁 Structure des Données (Star Schema)
 
 Le modèle dimensionnel final permet des analyses croisées sur 5 perspectives clés:
 
