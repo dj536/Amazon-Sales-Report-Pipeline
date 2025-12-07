@@ -58,8 +58,7 @@ Dim_Order_Status : orderStatus, StatusCategory, status_key
 │       └── dim product.py
 │       └── dim time.py
 │       └── dim_salesChannel.py        
-├── analysis/
-│   └── insights_queries.sql    
+├  
 ├── volumes/
 │   └── data/                   
 └── README.md                   
