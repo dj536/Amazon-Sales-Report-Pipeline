@@ -6,8 +6,11 @@ Ce projet implémente un pipeline pipeline Lakehouse entièrement automatisé pe
 ## 🚀 Architecture du Projet
 
 Le pipeline repose sur l'architecture Medallion utilisant Delta Live Tables (DLT) :
+
 Couche Bronze : Ingestion brute via cloudFiles depuis un Volume Unity Catalog. 
+
 Couche Silver : Nettoyage, enrichissement temporel et agrégation. 
+
 Couche Gold : Modélisation en Schéma en Étoile avec gestion de l'historique (SCD Type 2) et Clés de Substitution.
 
 ## 🛠️ Stack Technique
