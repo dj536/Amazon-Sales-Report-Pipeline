@@ -7,11 +7,11 @@ Ce projet implémente un pipeline pipeline Lakehouse entièrement automatisé pe
 
 Le pipeline repose sur l'architecture Medallion utilisant Delta Live Tables (DLT) :
 
-Couche Bronze : Ingestion brute via cloudFiles depuis un Volume Unity Catalog. 
+Couche Bronze : Ingestion brute via cloudFiles depuis un Volume Unity Catalog; utilisation de l'Auto Loader de Databricks. Contrairement à une ingestion classique, Auto Loader détecte automatiquement les nouveaux fichiers CSV arrivant dans le Volume Unity Catalog et ne traite que les nouveautés (incrémental). On définit également les règles (rule1, rule2...) qui marquent les lignes suspectes
 
-Couche Silver : Nettoyage, enrichissement temporel et agrégation. 
+Couche Silver : Nettoyage, enrichissement temporel et agrégation, elle contient des données propres, filtrées , filtrées, transformées, aggrégées et prêtes pour le DWH.
 
-Couche Gold : Modélisation en Schéma en Étoile avec gestion de l'historique (SCD Type 2) et Clés de Substitution.
+Couche Gold : Modélisation en Schéma en Étoile avec gestion de l'historique (SCD Type 2) et Clés de Substitution, la couche finale transforme les flux de données en un Schéma en Étoile (Star Schema), pour l'aide à la décision.
 
 ## 🛠️ Stack Technique
 
