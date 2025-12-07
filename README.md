@@ -4,3 +4,36 @@ Ce projet implémente un pipeline pipeline Lakehouse entièrement automatisé pe
 
 
 # 🚀 Architecture du Projet
+
+Le pipeline repose sur l'architecture Medallion utilisant Delta Live Tables (DLT) :
+Couche Bronze : Ingestion brute via cloudFiles depuis un Volume Unity Catalog. 
+Couche Silver : Nettoyage, enrichissement temporel et agrégation. 
+Couche Gold : Modélisation en Schéma en Étoile avec gestion de l'historique (SCD Type 2) et Clés de Substitution.
+
+
+🛠️ Stack Technique
+
+Plateforme : Databricks (Azure/AWS) 
+
+Moteur de Données : Delta Live Tables (DLT)
+
+Langages : PySpark (ETL) & SQL (Reporting)
+
+Gouvernance : Unity Catalog
+
+
+📁 Structure des Données (Star Schema)
+
+Le modèle dimensionnel final permet des analyses croisées sur 5 perspectives clés:
+
+Fact_Sales : SalesKey, ProductKey, TimeKey, LocationKey, SalesChannelKey, OrderStatusKey, Qty
+
+Dim_Product : SKU, Style, Category, Size, ProductCode, Line 
+
+Dim_Time : Date, Day, Month, Quarter, Year, Week, TimeKey 
+
+Dim_Location : ShipState, ShipPostalCode, ShipCountry, location_key 
+
+Dim_Sales_Channel : fulfilmentType, servicelevel, channelKey 
+
+Dim_Order_Status : orderStatus, StatusCategory, status_key
