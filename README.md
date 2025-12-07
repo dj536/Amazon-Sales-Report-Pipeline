@@ -73,3 +73,26 @@ https://www.databricks.com/fr/learn/free-edition
 ```
 
 Unity Catalog:
+
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20001951.png)
+
+
+
+![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+
+
+
+![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+
+
+
+![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+
+
+
+![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+
+
+
+![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+
