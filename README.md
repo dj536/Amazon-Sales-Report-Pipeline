@@ -1,3 +1,3 @@
 # Amazon Sales Report - End-to-End DLT Pipeline
 
-Ce projet implémente un pipeline ETL moderne sur Databricks via un LakeFlow Declarative Pipeline. Cette approche permet de transformer un rapport de ventes Amazon brut (CSV) en un modèle dimensionnel performant pour l'analyse business, tout en automatisant l'orchestration et la gestion du pipeline.
+Ce projet implémente un pipeline pipeline Lakehouse entièrement automatisé permettant d’ingérer, transformer, historiser et analyser des données de ventes Amazon, en appliquant les principes Bronze → Silver → Gold, l’orchestration moderne avec LakeFlow Declarative Pipelines, et la modélisation analytique Data Warehouse (dimensions + fact table).
