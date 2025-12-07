@@ -71,3 +71,5 @@ Databricks Workspace: Un compte actif avec un cluster fonctionnel:
 ```
 https://www.databricks.com/fr/learn/free-edition
 ```
+
+Unity Catalog:
