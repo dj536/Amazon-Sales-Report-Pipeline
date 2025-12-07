@@ -43,17 +43,21 @@ Dim_Order_Status : orderStatus, StatusCategory, status_key
 
 ## 📂 Project Structure
 ```
-├── config/
-│   └── expectations.json       # Règles de qualité (Assertions Bronze)
+├── explorations/
+│   └── sample_explorations.py       # Règles de qualité (Assertions Bronze)
 ├── transformations/
 │   ├── Bronze/
-│   │   └── ingestion.py        # Chargement CSV & CloudFiles
+│   │   └── data_ingestion.py        # Chargement CSV & CloudFiles
 │   ├── Silver/
-│   │   ├── cleaning.py         # TRIM & gestion des NULL
-│   │   └── aggregations.py     # Logique de ods_sales_summary
+│   │   ├── amazon_strmg.py         # TRIM & gestion des NULL
+│   │   └── aggregation.py     # Logique de ods_sales_summary
 │   └── Gold/
-│       ├── fact_layer.py       # Construction de Fact_Sales
-│       └── dim_layer.py        # Construction des 5 Dimensions (Star Schema)
+│       ├── Fact_layer.py       # Construction de Fact_Sales
+│       └──dim Order_status.py
+│       └── dim location.py
+│       └── dim product.py
+│       └── dim time.py
+│       └── dim_salesChannel.py        # Construction des 5 Dimensions (Star Schema)
 ├── analysis/
 │   └── insights_queries.sql    # Requêtes SQL pour Insights 1 à 5
 ├── volumes/
