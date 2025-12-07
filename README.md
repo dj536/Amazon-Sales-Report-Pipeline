@@ -39,3 +39,25 @@ Dim_Location : ShipState, ShipPostalCode, ShipCountry, location_key
 Dim_Sales_Channel : fulfilmentType, servicelevel, channelKey 
 
 Dim_Order_Status : orderStatus, StatusCategory, status_key
+
+
+## 📂 Project Structure
+```
+├── config/
+│   └── expectations.json       # Règles de qualité (Assertions Bronze)
+├── transformations/
+│   ├── Bronze/
+│   │   └── ingestion.py        # Chargement CSV & CloudFiles
+│   ├── Silver/
+│   │   ├── cleaning.py         # TRIM & gestion des NULL
+│   │   └── aggregations.py     # Logique de ods_sales_summary
+│   └── Gold/
+│       ├── fact_layer.py       # Construction de Fact_Sales
+│       └── dim_layer.py        # Construction des 5 Dimensions (Star Schema)
+├── analysis/
+│   └── insights_queries.sql    # Requêtes SQL pour Insights 1 à 5
+├── volumes/
+│   └── data/                   # Emplacement source (Amazon Sale Report.csv)
+└── README.md                   # Documentation du projet
+```
+
