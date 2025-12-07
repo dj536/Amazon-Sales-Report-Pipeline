@@ -64,3 +64,10 @@ Dim_Order_Status : orderStatus, StatusCategory, status_key
 └── README.md                   
 ```
 
+
+## 🛠️ Getting Started
+
+Databricks Workspace: Un compte actif avec un cluster fonctionnel
+```
+https://www.databricks.com/fr/learn/free-edition
+```
