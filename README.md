@@ -101,3 +101,11 @@ Lancer le pipeline
 ![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20004720.png)
 
 
+👨‍💻 Auteur
+
+Réalisé par Justin DJIDONOU. N'hésitez pas à poser vos questions, signaler un bug ou proposer des idées.
+
+Vos suggestions sont les bienvenues 🙂
+
+
+
