@@ -77,22 +77,23 @@ Unity Catalog:
 ![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20001951.png)
 
 
+Créer un schema
+
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20002956.png)
+
+
+Créer un volume et Upload les données
+
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20002956.png)
+
+
+Importer le dossier .dbc pour lancer le pipeline
 
 ![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
 
 
+Lancer le pipeline 
 
-![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20004655.png)
 
-
-
-![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
-
-
-
-![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
-
-
-
-![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
 
