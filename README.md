@@ -66,6 +66,10 @@ Dim_Order_Status : orderStatus, StatusCategory, status_key
 
 
 ## 🛠️ Getting Started
+Cloner le repo:
+```
+ git clone git@github.com:dj536/Amazon-Sales-Report-Pipeline.git
+```
 
 Databricks Workspace: Un compte actif avec un cluster fonctionnel:
 ```
