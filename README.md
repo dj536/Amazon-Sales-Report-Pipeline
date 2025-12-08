@@ -84,16 +84,16 @@ Créer un schema
 
 Créer un volume et Upload les données
 
-![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20002956.png)
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20003223.png)
 
 
 Importer le dossier .dbc pour lancer le pipeline
 
-![image_alt](https://github.com/dj536/SalesTrack/blob/master/images/product.png?raw=true)
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20004655.png)
 
 
 Lancer le pipeline 
 
-![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20004655.png)
+![image_alt](https://github.com/dj536/Amazon-Sales-Report-Pipeline/blob/main/Images/Screenshot%202025-12-08%20004720.png)
 
 
